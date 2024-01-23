@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="nav.css">
+
+
+<h1>CCC Festival</h1>
+
+<h2>
+Celebrating <br>
+Creativity, Creation, <br>
+and our Creator
+</h2>
+
+<nav>
+<a id="attend"><span>Attend</span></a>
+<a>Perform</a>
+<a>Contribute</a>
+<a>Connect</a>
+<a>Create</a>
+<a>Vendors</a>
+<a>Our Philosophy</a>
+</nav>
+
+<script>
+
+const el = document.getElementById("attend")
+
+function expand ()
+{
+el.classList.add("expand");
+}
+
+el.addEventListener("touchstart", expand)
+
+
+
+</script>
+
+<style>
+.expand
+{
+transform: scale(4);
+
+}
+</style>
