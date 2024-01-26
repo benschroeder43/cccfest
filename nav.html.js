@@ -18,7 +18,6 @@ nav.addEventListener("touchstart", handle_nav_touch)
 
 function handle_span_touch (touch_ev)
 {
-touch_ev.preventDefault()
 touch_ev.stopPropagation()
 
 target = touch_ev.changedTouches[0].target.parentElement
