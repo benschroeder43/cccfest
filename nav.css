@@ -11,7 +11,7 @@ display: inline-block;
 transition: transform .2s ease-in-out;
 
 pointer-events: none;
-touch-action: none;
+touch-action: pan-y;
 }
 
 nav a > span
