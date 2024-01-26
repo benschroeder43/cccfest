@@ -37,8 +37,6 @@ target.expanded = !target.expanded
 
 function handle_nav_touch (touch_ev)
 {
-
-touch_ev.preventDefault()
 target = touch_ev.changedTouches[0].target
 if (target.tagName == "NAV")
 for (sib of target.children)
